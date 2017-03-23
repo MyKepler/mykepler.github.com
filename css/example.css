@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-09 15:41:06
+ * @version $Id$
+ */
+   #t1{
+   	background-color: gray;
+   	width:800px;
+   	height:20px;
+   	/* border:yellow;
+   	outline-color: blue;
+   	outline-style: dashed; */
+   }
+   #t1 td{
+	width: 25%;
+}
+   .t1t1{
+   	border-left:1px dashed ;
+   	border-right:1px dashed ;
+   	width:200px;
+   	height:100px;
+   }
+   img.img1{
+   	position:absolute;
+   	width:180px;
+   	height:80px;
+   	left:10px;
+   	top:20px;
+   }
+   
+     #t2{
+    background-color: blue;
+   	width:800px;
+   	height:50px;
+   	outline-style: solid;
+   	outline-color: yellow;
+   	outline-width: 1px;
+   }
+    #t2 td{
+	width: 1200px;
+}
+.t2t2{
+   	border-right:1px solid ;
+   	width:200px;
+   	height:100px;
+   }
+ img.img2{
+   	position:absolute;
+   	left:10px;
+   	top:130px;
+   	width:150px;
+   	height:80px;
+   }
+ img.img3{
+   	position:absolute;
+   	 left:420px;
+   	top:130px;
+   	width:150px;
+   	height:80px;
+   }
+     #t3{
+   	background-color: gray;
+   	width:800px;
+   	height:300px;
+   }
+   #t3.small{
+   	width: 40%;
+   }
+    #t3.big{
+   	width: 60%;
+   }
+   img.img4{
+   	position:absolute;
+   	 left:10px;
+   	top:230px;
+   	width:400px;
+   	height:220px;
+   }
+/*a:link {color:red;}    /* 未被访问的链接 */
+/*a:visited {color:yellow;} /* 已被访问的链接 */
+/*a:hover {color:blue;}   /* 鼠标指针移动到链接上 */
+/*a:active {color:green;}  /* 正在被点击的链接 */
+</style>
+</head>
+
+
+</html>
