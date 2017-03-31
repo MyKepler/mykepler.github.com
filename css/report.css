@@ -1,0 +1,27 @@
+@charset "UTF-8";
+#tb1{
+	width:1000px;
+	height: 30px;
+	background-color: #aaaaaa;
+}
+p{
+	font-size: 18px;
+	text-align: center;
+}
+a{
+	font-size: 20px;
+	text-align: center;
+}
+a:link {color:gray;}    /* 未被访问的链接 */
+a:visited {color:yellow;} /* 已被访问的链接 */
+a:hover {color:green;}   /* 鼠标指针移动到链接上 */
+a:active {color:green;}  /* 正在被点击的链接 */
+#tb2{
+	width:1000px;
+    height:400px;
+}
+#tb2 .rightTable1,.rightTable2 {
+width:500px;
+margin-left: 130px;
+}
+
