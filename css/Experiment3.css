@@ -4,7 +4,6 @@
    width: 300px;
    height: 130px;
    border: 1px solid #cccccc;
-   font-size: 18px;
    text-align: center;
    color: gray;
 }
@@ -16,6 +15,7 @@
    padding-top: 5px;
    font-weight: bold;
    color: black;
+   font-size: 18px;
 }
 .choice2 {
    position: absolute;
@@ -27,6 +27,7 @@
    border-bottom: 1px solid #cccccc;
    background-color: #F7F7F7;
    font-size: 15px;
+   line-height: 20px;
 }
 .choice3 {
    position: absolute;
@@ -37,6 +38,7 @@
    border-bottom: 1px solid #cccccc;
    background-color: #F7F7F7;
    font-size: 15px;
+   line-height: 20px;
 }
 .choice4 {
    position: absolute;
@@ -46,7 +48,8 @@
    padding-top: 5px;
    border-bottom: 1px solid #cccccc;
    background-color: #F7F7F7;
-   font-size: 18px;
+   font-size: 15px;
+   line-height: 20px;
 }
 .choice5 {
    position: absolute;
@@ -56,7 +59,8 @@
    padding-top: 5px;
    border-bottom: 1px solid #cccccc;
    background-color: #F7F7F7;
-   font-size: 18px;
+   font-size: 15px;
+   line-height: 20px;
 }
 .frame1 {
    position: absolute;

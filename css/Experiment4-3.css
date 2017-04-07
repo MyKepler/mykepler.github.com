@@ -1,0 +1,83 @@
+#ui-item3 {
+	display: flex;
+	flex-direction: column;
+	width: 650px;
+	height: 420px;
+	background-color: #f2f2f2;
+}
+#ui-item3-upcase {
+	display: flex;
+	flex-direction: row;
+	width: 650px;
+	height: 210px;
+	background-color: #f2f2f2;
+}
+#ui-item3-downcase {
+	display: flex;
+	flex-direction: row;
+	width: 650px;
+	height: 215px;
+	margin-top: -5px; 
+	background-color: #f2f2f2;
+}
+.ui-item3-subitem {
+	height: 200px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.ui-item3-subitem-text {
+	width: 203px;
+	margin-top: -15px;
+	background-color: #FFFFFF;
+}
+.ui-item3-subitem-text-title {
+	margin-left: 5px;
+	padding-top: 5px; 
+    font-size: 9px;
+}
+.ui-item3-subitem-text-information {
+	margin-top: -10px;
+	margin-left: 5px; 
+	font-size: 8px;
+}
+.ui-item3-subitem-text-information-redtext{
+	font-size: 8px;
+	color: #F70B42;
+}
+.ui-item3-subitem-text-information-graytext {
+	font-size: 8px;
+	color: gray;
+}
+.ui-item3-subitem-text-money p {
+	font-size: 25px;
+	color: #F70B42;
+	font-weight: bold; 
+	margin-top: -3px;
+	margin-left: 5px;
+}
+ .ui-item3-subitem-text-dollor {
+ 	margin-top: 15px; 
+	font-size: 11px;
+	color: #F70B42;
+}
+.ui-item3-subitem-text-originalprice {
+	color: #6f6f6f;
+	font-size: 12px;
+	margin-left: -15px; 
+	text-decoration: line-through;
+	font-weight: normal;
+}
+.ui-item3-subitem-text-sold {
+	color: #6f6f6f;
+	font-size: 10px;
+	font-weight: normal;
+	margin-top: 10px; 
+}
+.ui-item3-subitem-text-soldnum {
+	color: #F70B42;
+	font-size: 10px;
+	font-weight: normal;
+	margin-top: 15px;
+	margin-left: 30px; 
+}
