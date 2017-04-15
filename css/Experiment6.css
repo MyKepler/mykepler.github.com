@@ -1,0 +1,149 @@
+.ui-item1 {
+	width: 860px;
+	height: 340px;
+	padding-left: 10px;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 3px;
+	border: 2px solid gray;
+}
+
+.ui-item1-subitem { 
+	float: left;
+	width: 140px;
+	height: 140px;
+	margin: 15px;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 3px;
+	background-color: #f6f6f6;
+	cursor: pointer;
+}
+
+ui-item1-ul {
+	list-style: none;
+}
+
+.ui-item1-subitem img{
+	width:140px;
+	height:140px;
+}
+
+.ui-item1-subitem-bigbox {
+	position: absolute;
+	width: 900px;
+	height: 340px;
+	z-index: 1;
+    margin-top: -340px; 
+}
+.ui-item1-subitem-bigbox img {
+	width: 300px;
+	height: 300px;
+	margin-left: 280px;
+	margin-top: 18px; 
+	border: 3px solid gray;
+}
+
+
+
+
+/* Task2 */
+.ui-nav-item1,
+.ui-nav-item2,
+.ui-nav-item3 {
+	float: left;
+	width: 100px;
+	height: 40px;
+	margin-top: 50px;
+	border-top:2px solid gray;
+	border-right:2px solid gray;
+	align-items: center;
+	color: gray;
+	cursor: pointer;
+}
+.ui-nav-item1 {
+	background-color: #C0C0C0;
+	border-left: 2px solid gray;
+}
+.ui-cnt {
+	display: flex;
+	width: 400px;
+	height: 300px;
+	border: 2px solid gray;
+	justify-content: center;
+	align-items: center;
+	font-size: 100px;
+	color:#808080;
+	clear: both;
+}
+
+/* Task3 */
+.ui-box {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width:490px;
+	height: auto;
+	top: 350px;
+	left: 450px;
+	padding-top: 20px;
+	margin-top: 50px;
+    border: 1px solid black;
+}
+.ui-box-record {
+	display: flex;
+	flex-direction: column;
+	width: 490px;
+	height: auto;
+}
+.ui-box-record-change {
+	display: flex;
+	flex-direction: column;
+	width: 490px;
+	height: auto;
+}
+.ui-box-record-blank {
+	position: relative;
+	justify-content: center;
+	width: 300px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 60px;
+	border: 1px solid black;
+}
+.ui-box-record-number {
+	position: absolute;
+	display: flex;
+	width: 30px;
+	height: 30px;
+	margin-left: -30px;
+	margin-top: -1px; 
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	justify-content: center;
+	align-items: center;
+}
+.ui-box-record-delete {
+	position: absolute;
+	display: flex;
+	width: 100px;
+	height: 30px;
+	justify-content: center;
+	align-items: center;
+	margin-left: 300px;
+	margin-top: -1px;
+	border:  1px solid black;
+	cursor: pointer;
+}
+.ui-box-button { 
+	display: flex; 
+	align-self: flex-end;
+	width: 100px;
+	height: 30px;
+	margin: 27px;
+	border: 1px solid black;
+	background-color: #339966;
+	color: white;
+    align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
