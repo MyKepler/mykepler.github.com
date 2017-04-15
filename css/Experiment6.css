@@ -18,8 +18,9 @@
 	cursor: pointer;
 }
 
-ui-item1-ul {
-	list-style: none;
+.ui-item1-ul {
+	width: 860px;
+	height: 340px;
 }
 
 .ui-item1-subitem img{

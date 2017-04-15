@@ -7,14 +7,14 @@ $(document).ready(function(){
       var imgsrc=$(this).find('img').attr('src'); // 小图片路径赋值给大图片
       $("#img").attr("src", imgsrc);
       $(".ui-item1-subitem-bigbox").show();
-      $("ui-item1-ul").css("opacity","0.3");//设置ul透明
+      $(".ui-item1-ul").css("opacity","0.3");//设置ul透明
     }
     flag=false;//屏蔽点击事件
   });
 
   $(".ui-item1-subitem-bigbox").click(function(){ // 点击隐藏
     $(".ui-item1-subitem-bigbox").hide();
-    $("ui-item1-ul").css("opacity","1.0");
+    $(".ui-item1-ul").css("opacity","1.0");
     flag=true;//解除屏蔽
   });
 });
