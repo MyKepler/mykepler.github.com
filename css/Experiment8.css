@@ -1,0 +1,49 @@
+#baidu_map{
+	background-color: #FFFFFF;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+#myMap{
+	width: 80%;
+	height: 700px;/* 
+	border: 2px solid #dfdfde; */
+	border-top: none;
+	border-radius: 15px;
+	box-shadow: 0 3px 3px 3px black;
+
+}
+#choice{
+	position: relative;
+	width: 18%;
+	margin-left:30px;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+}
+.buttonstyle{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+	box-shadow:0 5px 5px  black;
+	outline:none;
+}
+#information{
+    position: relative;
+	width: 100%;
+	height: 580px;
+	border-top: none;
+	border-radius: 15px;
+	box-shadow:0 5px 5px  black;
+}
+/* #myMap.setMapStyle({
+  styleJson:[[ {
+                    "featureType": "all",
+                    "elementType": "all",
+                    "stylers": {
+                              "lightness": 10,
+                              "saturation": -100
+                    }
+          }]]
+}); */
